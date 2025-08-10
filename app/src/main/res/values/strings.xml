@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BMTC API Tester</string>
+    <string name="app_subtitle">Real-time Bus Information</string>
+    <string name="api_info_title">API Information</string>
+    <string name="parameters_title">Parameters</string>
+    <string name="response_title">Response</string>
+    <string name="test_api">🚀 Test API</string>
+    <string name="clear_response">Clear</string>
+    <string name="copy_response">Copy</string>
+    <string name="status_ready">Ready to test APIs</string>
+    <string name="status_testing">Testing API...</string>
+    <string name="status_success">API test completed successfully</string>
+    <string name="status_error">API test failed</string>
+    <string name="response_placeholder">API response will appear here...</string>
+</resources>

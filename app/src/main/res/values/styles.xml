@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarTitleStyle" parent="@style/TextAppearance.Material3.HeadlineSmall">
+        <!-- Remove this line: <item name="android:fontFamily">@font/roboto_bold</item> -->
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomTabTextAppearance" parent="@style/TextAppearance.Design.Tab">
+        <!-- Remove this line: <item name="android:fontFamily">@font/roboto_medium</item> -->
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/bmtc_primary</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+</resources>
