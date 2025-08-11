@@ -1,7 +1,62 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.BMTCAPITester" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors -->
         <item name="colorPrimary">@color/bmtc_primary</item>
         <item name="colorPrimaryDark">@color/bmtc_primary_dark</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/bmtc_primary_variant</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/teal_700</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/text_on_primary</item>
+        
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/text_on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_background</item>
+        
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorOnBackground">@color/text_on_surface</item>
+        
+        <!-- Status Bar and Navigation -->
+        <item name="android:statusBarColor">@color/bmtc_primary_dark</item>
+        <item name="android:navigationBarColor">@color/bmtc_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Text Appearances -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Custom Styles -->
+        <item name="textInputStyle">@style/CustomTextInputLayout</item>
+        <item name="materialButtonStyle">@style/CustomMaterialButton</item>
+        <item name="materialCardViewStyle">@style/CustomMaterialCard</item>
+        
+        <!-- Ripple and Focus -->
+        <item name="colorControlHighlight">@color/ripple_color</item>
+        <item name="colorAccent">@color/focus_color</item>
+    </style>
+    
+    <!-- Custom Material Button Style -->
+    <style name="CustomMaterialButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/bmtc_primary</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+    
+    <!-- Custom Material Card Style -->
+    <style name="CustomMaterialCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
     </style>
 </resources>

@@ -7,7 +7,7 @@
     android:background="@color/background_light"
     android:fitsSystemWindows="true">
 
-    <!-- Properly positioned TabLayout with system window insets -->
+    <!-- Enhanced TabLayout with improved contrast -->
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
@@ -18,11 +18,10 @@
         app:tabMode="scrollable"
         app:tabGravity="start"
         app:tabIndicatorColor="@color/white"
-        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorHeight="4dp"
         app:tabSelectedTextColor="@color/white"
         app:tabTextColor="@color/white_70"
-        app:tabRippleColor="@color/white_20"
-        app:tabTextAppearance="@style/CustomTabTextAppearance" />
+        app:tabRippleColor="@color/white_20" />
 
     <!-- ViewPager2 positioned below TabLayout -->
     <androidx.viewpager2.widget.ViewPager2
@@ -32,28 +31,30 @@
         android:layout_marginTop="72dp"
         android:layout_marginBottom="56dp" />
 
-    <!-- Status Bar positioned at bottom -->
+    <!-- Enhanced Status Bar with improved contrast -->
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        app:cardElevation="8dp"
+        app:cardElevation="12dp"
         app:cardCornerRadius="0dp"
-        app:cardBackgroundColor="@color/status_background">
+        app:cardBackgroundColor="@color/status_background"
+        app:strokeColor="@color/card_stroke"
+        app:strokeWidth="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="12dp"
+            android:padding="16dp"
             android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="📊"
-                android:textSize="16sp"
-                android:layout_marginEnd="8dp" />
+                android:textSize="18sp"
+                android:layout_marginEnd="12dp" />
 
             <TextView
                 android:id="@+id/status_bar"
@@ -62,13 +63,15 @@
                 android:layout_weight="1"
                 android:text="Ready to test APIs"
                 android:textColor="@color/status_text"
-                android:textSize="14sp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
             <ProgressBar
                 android:id="@+id/status_progress"
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:visibility="gone"
+                android:indeterminateTint="@color/bmtc_primary"
                 style="?android:attr/progressBarStyleSmall" />
 
         </LinearLayout>

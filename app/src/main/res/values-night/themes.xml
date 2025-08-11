@@ -1,16 +1,75 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.BMTCAPITester" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+    <!-- Base application theme for dark mode -->
+    <style name="Theme.BMTCAPITester" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
         <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/bmtc_primary_light</item>
+        <item name="colorSecondaryVariant">@color/bmtc_primary</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/response_background</item>
+        <item name="colorOnSurface">@color/response_text</item>
+        <item name="colorSurfaceVariant">@color/colorInputBackgroundDark</item>
+        
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/response_background</item>
+        <item name="colorOnBackground">@color/response_text</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/response_background</item>
+        <item name="android:navigationBarColor">@color/response_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Text Appearances -->
+        <item name="android:textColorPrimary">@color/response_text</item>
+        <item name="android:textColorSecondary">@color/colorInputHintDark</item>
+        <item name="android:textColorHint">@color/colorInputHintDark</item>
+        
+        <!-- Custom Styles -->
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout.OutlinedBox.Dark</item>
+        <item name="materialButtonStyle">@style/CustomMaterialButton.Dark</item>
+        <item name="materialCardViewStyle">@style/CustomMaterialCard.Dark</item>
+        
+        <!-- Ripple and Focus -->
+        <item name="colorControlHighlight">@color/ripple_color</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <!-- Custom Dark Material Button Style -->
+    <style name="CustomMaterialButton.Dark" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/teal_200</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+    
+    <!-- Custom Dark Material Card Style -->
+    <style name="CustomMaterialCard.Dark" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/colorInputBackgroundDark</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/colorInputBorderDark</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Dark Theme TextInputLayout Style -->
+    <style name="Widget.App.TextInputLayout.OutlinedBox.Dark" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorInputBorderDark</item>
+        <item name="android:textColorHint">@color/colorInputHintDark</item>
+        <item name="hintTextColor">@color/colorInputHintDark</item>
+        <item name="boxBackgroundColor">@color/colorInputBackgroundDark</item>
+        <item name="android:editTextColor">@color/colorInputTextDark</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
     </style>
 </resources>

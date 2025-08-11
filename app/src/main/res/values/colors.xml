@@ -1,47 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Colors -->
-    <color name="bmtc_primary">#2196F3</color>
-    <color name="bmtc_primary_dark">#1976D2</color>
-    <color name="bmtc_primary_light">#E3F2FD</color>
+    <!-- Primary Colors - Improved contrast and modern palette -->
+    <color name="bmtc_primary">#1565C0</color> <!-- Darker blue for better contrast -->
+    <color name="bmtc_primary_dark">#0D47A1</color> <!-- Even darker for status bar -->
+    <color name="bmtc_primary_light">#E3F2FD</color> <!-- Light blue for backgrounds -->
+    <color name="bmtc_primary_variant">#1976D2</color> <!-- Medium blue for accents -->
 
-    <!-- Add these missing colors -->
+    <!-- Material Design 3 colors for compatibility -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
 
-    <!-- Secondary Colors -->
-    <color name="teal_200">#03DAC5</color>
-    <color name="teal_700">#018786</color>
+    <!-- Secondary Colors - Better contrast -->
+    <color name="teal_200">#80CBC4</color> <!-- Softer teal -->
+    <color name="teal_700">#00796B</color> <!-- Darker teal for better contrast -->
 
-    <!-- Background Colors -->
-    <color name="background_light">#F8F9FA</color>
-    <color name="card_background">#FFFFFF</color>
-    <color name="response_background">#1E1E1E</color>
+    <!-- Background Colors - Improved contrast ratios -->
+    <color name="background_light">#FAFAFA</color> <!-- Slightly darker for better contrast -->
+    <color name="card_background">#FFFFFF</color> <!-- Pure white for cards -->
+    <color name="response_background">#1A1A1A</color> <!-- Darker for better text contrast -->
+    <color name="surface_background">#F5F5F5</color> <!-- Subtle surface color -->
 
-    <!-- Text Colors -->
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
-    <color name="text_hint">#BDBDBD</color>
-    <color name="response_text">#E8F5E8</color>
+    <!-- Text Colors - WCAG AA compliant contrast ratios -->
+    <color name="text_primary">#1A1A1A</color> <!-- Darker for better readability -->
+    <color name="text_secondary">#424242</color> <!-- Better contrast than previous -->
+    <color name="text_hint">#757575</color> <!-- Improved hint text contrast -->
+    <color name="response_text">#E8F5E8</color> <!-- Light green for response -->
+    <color name="text_on_primary">#FFFFFF</color> <!-- White text on primary colors -->
+    <color name="text_on_surface">#1A1A1A</color> <!-- Dark text on light surfaces -->
 
-    <!-- Status Colors -->
-    <color name="status_success">#4CAF50</color>
-    <color name="status_error">#F44336</color>
-    <color name="status_warning">#FF9800</color>
-    <color name="status_background">#FFFFFF</color>
-    <color name="status_icon">#2196F3</color>
-    <color name="status_text">#424242</color>
+    <!-- Status Colors - Enhanced contrast and accessibility -->
+    <color name="status_success">#2E7D32</color> <!-- Darker green for better contrast -->
+    <color name="status_error">#C62828</color> <!-- Darker red for better contrast -->
+    <color name="status_warning">#EF6C00</color> <!-- Darker orange for better contrast -->
+    <color name="status_info">#1565C0</color> <!-- Blue for info status -->
+    <color name="status_background">#FFFFFF</color> <!-- White background for status bar -->
+    <color name="status_icon">#1565C0</color> <!-- Primary blue for status icons -->
+    <color name="status_text">#1A1A1A</color> <!-- Dark text for better readability -->
 
-    <!-- Accent Colors -->
-    <color name="card_stroke">#E0E0E0</color>
-    <color name="divider">#E0E0E0</color>
+    <!-- Accent Colors - Improved contrast -->
+    <color name="card_stroke">#E0E0E0</color> <!-- Subtle card borders -->
+    <color name="divider">#E0E0E0</color> <!-- Consistent divider color -->
+    <color name="ripple_color">#1F000000</color> <!-- Subtle ripple effect -->
+    <color name="focus_color">#1565C0</color> <!-- Focus indicator color -->
 
-    <!-- White Variations -->
+    <!-- White Variations - Consistent opacity values -->
     <color name="white">#FFFFFF</color>
-    <color name="white_70">#B3FFFFFF</color>
-    <color name="white_20">#33FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color> <!-- 70% opacity -->
+    <color name="white_20">#33FFFFFF</color> <!-- 20% opacity -->
+    <color name="white_10">#1AFFFFFF</color> <!-- 10% opacity -->
 
-    <!-- Black -->
+    <!-- Black Variations -->
     <color name="black">#000000</color>
+    <color name="black_12">#1F000000</color> <!-- 12% opacity -->
+    <color name="black_26">#42000000</color> <!-- 26% opacity -->
+    <color name="black_38">#61000000</color> <!-- 38% opacity -->
+    <color name="black_54">#8A000000</color> <!-- 54% opacity -->
+    <color name="black_87">#DE000000</color> <!-- 87% opacity -->
+
+    <!-- Dark Theme Input Field Colors - Better contrast -->
+    <color name="colorInputBackgroundDark">#2D2D2D</color> <!-- Darker background -->
+    <color name="colorInputTextDark">#FFFFFF</color> <!-- White text -->
+    <color name="colorInputBorderDark">#4A4A4A</color> <!-- Better border contrast -->
+    <color name="colorInputHintDark">#B0B0B0</color> <!-- Better hint contrast -->
+
+    <!-- Additional Utility Colors -->
+    <color name="shadow_color">#1A000000</color> <!-- Subtle shadows -->
+    <color name="overlay_color">#80000000</color> <!-- Overlay color -->
+    <color name="success_light">#E8F5E8</color> <!-- Light success background -->
+    <color name="error_light">#FFEBEE</color> <!-- Light error background -->
+    <color name="warning_light">#FFF3E0</color> <!-- Light warning background -->
+    <color name="info_light">#E3F2FD</color> <!-- Light info background -->
 </resources>
