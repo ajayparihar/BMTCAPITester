@@ -22,7 +22,7 @@
         <item name="endIconTint">@color/bmtc_primary</item>
         <item name="startIconTint">@color/bmtc_primary</item>
     </style>
-    
+
     <!-- Enhanced Button Styles -->
     <style name="CustomButton.Primary" parent="Widget.Material3.Button">
         <item name="android:textColor">@color/text_on_primary</item>
@@ -33,7 +33,7 @@
         <item name="rippleColor">@color/ripple_color</item>
         <item name="elevation">4dp</item>
     </style>
-    
+
     <style name="CustomButton.Outlined" parent="Widget.Material3.Button.OutlinedButton">
         <item name="android:textColor">@color/bmtc_primary</item>
         <item name="strokeColor">@color/bmtc_primary</item>
@@ -43,7 +43,7 @@
         <item name="android:textStyle">bold</item>
         <item name="rippleColor">@color/ripple_color</item>
     </style>
-    
+
     <!-- Enhanced Card Styles -->
     <style name="CustomCard.Elevated" parent="Widget.Material3.CardView.Elevated">
         <item name="cardBackgroundColor">@color/card_background</item>
@@ -53,7 +53,7 @@
         <item name="strokeWidth">1dp</item>
         <item name="contentPadding">20dp</item>
     </style>
-    
+
     <style name="CustomCard.Info" parent="Widget.Material3.CardView.Elevated">
         <item name="cardBackgroundColor">@color/info_light</item>
         <item name="cardElevation">4dp</item>
@@ -61,7 +61,7 @@
         <item name="strokeColor">@color/bmtc_primary</item>
         <item name="strokeWidth">2dp</item>
     </style>
-    
+
     <!-- Status Badge Styles -->
     <style name="StatusBadge.Success" parent="Widget.Material3.CardView.Filled">
         <item name="cardBackgroundColor">@color/status_success</item>
@@ -69,33 +69,33 @@
         <item name="cardElevation">2dp</item>
         <item name="android:textColor">@color/white</item>
     </style>
-    
+
     <style name="StatusBadge.Error" parent="Widget.Material3.CardView.Filled">
         <item name="cardBackgroundColor">@color/status_error</item>
         <item name="cardCornerRadius">16dp</item>
         <item name="cardElevation">2dp</item>
         <item name="android:textColor">@color/white</item>
     </style>
-    
+
     <style name="StatusBadge.Warning" parent="Widget.Material3.CardView.Filled">
         <item name="cardBackgroundColor">@color/status_warning</item>
         <item name="cardCornerRadius">16dp</item>
         <item name="cardElevation">2dp</item>
         <item name="android:textColor">@color/black</item>
     </style>
-    
+
     <!-- Text Styles with improved contrast -->
     <style name="TextAppearance.Headline" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
     </style>
-    
+
     <style name="TextAppearance.Body" parent="TextAppearance.Material3.BodyMedium">
         <item name="android:textColor">@color/text_secondary</item>
         <item name="android:textSize">14sp</item>
     </style>
-    
+
     <style name="TextAppearance.Caption" parent="TextAppearance.Material3.BodySmall">
         <item name="android:textColor">@color/text_hint</item>
         <item name="android:textSize">12sp</item>
